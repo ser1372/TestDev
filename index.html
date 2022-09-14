@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale=1">
+    <title>InternetShopTest-task</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
+    crossorigin="anonymous">
+
+    <!-- main style -->
+    <link rel="stylesheet" href="src/css/style.css" media="all">
+    
+    <!-- reset -->
+    <link rel="stylesheet" href="src/css/normalize.css" media="all">
+
+    
+</head>
+<body>
+    <div class="site_wrapper">
+        
+        
+        
+        <!-- header(nav-bar) -->
+        <header class="header-site">
+            <div class="header-site_topline">
+                
+                <a href="#" class="logo-wrapper"><img src="src/img/logo.svg" alt="" /></a>
+                
+                <ul class="header-site_navigation">
+                    
+                    <li><a href="#services-block">Услуги</a></li>
+                    <li><a href="#projects-block">Портфолио</a></li>
+                    <li><a href="#steps-block">Этапы</a></li>
+                    <li><a href="#info-block">Дизайнеры</a></li>
+                    
+                </ul>
+                <a href="#contact-form-block" class="order-btn green-btn position_btn">Заказать</a>
+                <button type="button" class="mob-menu-toggle"><span></span><span></span><span></span></button>
+                <!--End nav-bar -->
+                
+            </div>
+            <div class="header-site-bnr">
+                <img src="./src/img/bnr-bg.jpg" alt="" class="bg-img">
+                <img src="./src/img/bnr-bg-mob.png" alt="" class="bg_img_mobile">
+                <div class="site-header-bnr-wrapper">
+                    <div class="site-header-bnr-wrapper2">
+                        <h1 class="h1-template">Разработка интернет-магазина с нуля за неделю</h1>
+                        <p class="side-text-template">
+                            Дизайн интернет магазина, элементов микро UX, корзин, личного кабинета - от фирменного стиля 
+                            до пользовательского интерфейса в сжатые сроки 
+                            с командой Virtual Designers 
+                        </p>
+                        <a href="#contact-form-block" class="btn green-btn">Заказать</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- END./header -->
+        
+        
+        
+        
+        <!-- start "services" -->
+        <main class="site-main">
+            <section class="sec-services" id="services-block">
+                <div class="sec-wrapper">
+                    <h2 class="h2-template">Что входит в услугу по созданию дизайна интернет-магазина?</h2>
+                    <ul class="services-list">
+                        <li class="services-elem">
+                            <h5 class="h5-template">Дизайн портала <button class="toggle-btn" type="button"></button></h5>
+                            <div class="text-template">Дизайн портала — это оформление контента, совокупность всех графических элементов на веб-странице. Основная задача дизайна — познакомить пользователя со страницей. Продуманный дизайн создает нужное впечатление о компании.</div>
+                        </li>
+                        <li class="services-elem">
+                            <h5 class="h5-template">Дизайн адаптивной мобильной версии <button class="toggle-btn" type="button"></button></h5>
+                            <div class="text-template">
+                                <p>Мобильная версия сайта удобна для пользователя, потому что сильно упрощена по сравнению с обычной версией. Мобильная версия дает наиболее приоритетную информацию, а также позволяет совершать заказ/покупку с минимумом действий.</p>
+                                <p>При адаптивной версии вся структура сайта автоматически подстраивается под различную ширину экрана. Для того, чтобы получить рабочий продукт не нужно писать все с нуля — достаточно лишь подправить CSS и HTML.</p>
+                                <p>Один URL избавляет нас от ненужных редиректов, и надобности пользователю запоминать адрес мобильной версии.</p>
+                            </div>
+                        </li>
+                        <li class="services-elem">
+                            <h5 class="h5-template">Дизайн десктопной версии <button class="toggle-btn" type="button"></button></h5>
+                            <div class="text-template">Десктопную версию сайта просматривают пользователи со стационарных компьютеров. Основная цель: посерфить, углубиться в детали, получить больше информации, сравнить, выбрать, прицениться.</div>
+                        </li>
+                        <li class="services-elem">
+                            <h5 class="h5-template">Пользовательский интерфейс <button class="toggle-btn" type="button"></button></h5>
+                            <div class="text-template">Цель дизайна пользовательского интерфейса - сделать взаимодействие максимально простым и эффективным, насколько это возможно, с точки зрения достижения целей пользователя. Хороший дизайн пользовательского интерфейса облегчает выполнение поставленной задачи, не привлекая к себе лишнего внимания.</div>
+                        </li>
+                        <li class="services-elem">
+                            <h5 class="h5-template">Микро UX <button class="toggle-btn" type="button"></button></h5>
+                            <div class="text-template">Микро-анимация может изменить восприятие продукта, пользовательское поведение и повысить конверсию. Небольшие, преимущественно функциональные анимации поддерживают пользователя: обеспечивают визуальную обратную связь и более понятно отражают происходящие изменения. Микро-анимации способны многое объяснить без слов.</div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- END "services" -->
+            
+            
+            
+            <!-- start "steps" -->
+            <section class="sec-steps-block" id="steps-block">
+                <div class="sec-wrapper">
+                    <h2 class="h2-template text-center">Этапы разработки интернет-магазина</h2>
+                    <div class="slide-steplsr">
+                        <div class="slide-stepls">
+                            <div class="wrap">
+                                <h5 class="h5-template">1. Анализ</h5>
+                                <div class="text-template">Для того, чтобы онлайн-магазин приносил выгоду, перед его запуском необходимо провести анализ других предложений рынка, оценить конкурентов и найти наиболее удобное решение.</div>
+                                <img src="src/img/steps-dec-1.png" alt="" class="dec-img">
+                            </div>
+                        </div>
+                        <div class="slide-stepls">
+                            <div class="wrap">
+                                <h5 class="h5-template">2. Визуальное решение</h5>
+                                <div class="text-template">Разработка дизайна ключевых страниц магазина – главная, каталог, информационные разделы, раздел корзины, товаров. Для нас главное – передать настроение бренда, сделать удобный для пользователя сайт.</div>
+                                <img src="src/img/steps-dec-2.png" alt="" class="dec-img">
+                            </div>
+                        </div>
+                        <div class="slide-stepls">
+                            <div class="wrap">
+                                <h5 class="h5-template">3. Техническая реализация</h5>
+                                <div class="text-template">После утверждения дизайн-макета наступает следующий этап – верстка. Это трудоемкий процесс: программисты должны все тщательно прописать, чтобы не допустить технических ошибок.</div>
+                                <img src="src/img/steps-dec-3.png" alt="" class="dec-img">
+                            </div>
+                        </div>
+                        <div class="slide-stepls">
+                            <div class="wrap">
+                                <h5 class="h5-template">4. Наполнение контентом </h5>
+                                <div class="text-template">Создание и публикация текстов, а также видео материала. Хороший контент и качественные фотографии привлекают больше посетителей и помогают клиенту лучше ознакомиться с ассортиментом.</div>
+                                <img src="src/img/steps-dec-4.png" alt="" class="dec-img">
+                            </div>
+                        </div>
+                        <div class="slide-stepls">
+                            <div class="wrap">
+                                <h5 class="h5-template">5. Тестирование</h5>
+                                <div class="text-template">Составление плана тестирования для определения ошибок. Проверка работы сайта и визуального восприятия для улучшения сайта. Также используются чек-листы для четкого определения ошибок и их устранения.</div>
+                                <img src="src/img/steps-dec-5.png" alt="" class="dec-img">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END "services" -->
+                    
+                    
+                    
+                    <!-- start "designs" -->
+                    <div class="slider-buttons">
+                        <button class="arrow-prev" type="button"></button>
+                        <button class="arrow-next" type="button"></button>
+                    </div>
+                </div>
+            </section>
+            <section class="sec-projects" id="projects-block">
+                <div class="sec-wrapper">
+                    <h2 class="h2-template text-center">Примеры онлайн-магазинов</h2>
+                    <div class="projects-wrap">
+                        <a href="#" class="projects-item">
+                            <img src="src/img/projects-dec-1.jpg" alt="">
+                            <div class="hide">
+                                
+                                <h5 class="h5-template"><b>Онлайн-магазин</b><br> для оптовых покупок</h5>
+                                
+                            </div>
+                        </a>
+                        <a href="#" class="projects-item">
+                            <img src="src/img/projects-dec-2.jpg" alt="">
+                            <div class="hide">
+                                
+                                <h5 class="h5-template"><b>Онлайн-магазин</b><br> для флористов</h5>
+                                
+                            </div>
+                        </a>
+                        <a href="#" class="projects-item">
+                            <img src="src/img/projects-dec-3.jpg" alt="">
+                            <div class="hide">
+                                
+                                <h5 class="h5-template"><b>Онлайн-магазин</b><br> для парикмахеров</h5>
+                                
+                            </div>
+                        </a>
+                        <a href="#" class="projects-item">
+                            <img src="src/img/projects-dec-4.jpg" alt="">
+                            <div class="hide">
+                                
+                                <h5 class="h5-template"><b>Онлайн-магазин</b><br> для визажистов</h5>
+                                
+                            </div>
+                        </a>
+                        <a href="#" class="projects-item">
+                            <img src="src/img/projects-dec-5.jpg" alt="">
+                            <div class="hide">
+                                <h5 class="h5-template"><b>Онлайн-магазин</b><br> для кондитеров</h5>
+                            </div>
+                        </a>
+                        <a href="#" class="projects-item">
+                            <img src="src/img/projects-dec-6.jpg" alt="">
+                            <div class="hide">
+                                
+                                <h5 class="h5-template"><b>Онлайн-магазин</b><br> для художников</h5>
+                                
+                            </div>
+                        </a>
+                    </div>
+                    <div class="slider-buttons">
+                        <button class="arrow-prev" type="button"></button>
+                        <button class="arrow-next" type="button"></button>
+                    </div>
+                </div>
+            </section>
+            <section class="sec-info" id="info-block">
+                <div class="sec-wrapper">
+                    <div class="wrap">
+                        <h2 class="h2-template">Необходимо больше информации?</h2>
+                        <img src="src/img/info-dec.png" alt="" class="dec-img sp-hidden-pc">
+                        <div class="text-template">Если Вы владелец онлайн-магазина или только начинаете свой путь в электронной коммерции и вам нужен уникальный дизайн онлайн магазина для стартапа, обратитесь к нашему веб дизайнеру. За выгодную цену и короткий период времени, он поможет  визуализировать ваш веб проект.</div>
+                        <a href="#contact-form-block" class="call-form-btn green-btn">Оставить заявку</a>
+                    </div>
+                    <img src="src/img/info-dec.png" alt="" class="dec-img">
+                </div>
+            </section>
+            <!-- END "designs" -->
+            
+
+            
+            <!--Start Form-->
+            <section class="sec-form" id="contact-form-block">
+                <div class="wrap">
+                    <img src="src/img/contact-dec1.png" alt="" class="img-dec" />
+                    <div class="sec-wrapper">
+                        <h2 class="h2-template">Обсудить проект</h2>
+                        <p class="side-text-template">Расскажите о своих бизнес-целях и мы поможем вам в их достижении</p>
+                        <form action="POST" class="cotact-form">
+                                    <input type="text-template" name="name" placeholder="Имя" required>
+                                    <input type="text-template" name="messenger" placeholder="Telegram/Viber" required>
+                                    <input type="email" name="email" placeholder="Email" required>
+                                    <input class="green-btn" type="submit" value="Отправить">
+                            </form>
+                        </div>
+                    <img src="src/img/contact-dec2.png" alt="" class="img-dec" />
+                    <img src="src/img/form-dec-img-mob.png" alt="" class="img-dec sp-hidden-pc" />
+                </div>
+            </section>
+        </main>
+<!--END form-->
+
+
+
+        <!--start footer-->
+        <footer class="site-footer">
+                <div class="footer-wrap">
+                    <div class="site-footer_topline">
+                        <div class="foo-line-socials">
+                            <a href="#" class="logo-wrapper"><img src="src/img/logo.svg" alt="" /></a>
+                                <div class="wrap-social">
+                                <a href="#" target="_blank" class="ion-social-link-ig"></a>
+                                <a href="#" target="_blank" class="ion-social-link-fb"></a>
+                                <a href="#" target="_blank" class="ion-social-link-tg"></a>
+                                <a href="#" target="_blank" class="ion-social-link-vb"></a>
+                                <a href="#" target="_blank" class="ion-social-link-wa"></a>
+                        </div>
+                    </div>
+                    <div class="foo-line-phone">
+                        <a href="#" target="_blank" class="logo-wrapper sp-hidden-pc"><img src="src/img/logo.svg" alt="" /></a>
+                        <a href="#" target="_blank">Валерия: +79805585949</a>
+                        <a href="#" target="_blank">Анна: +79805585949</a>
+                        <a href="#" target="_blank">Валерия: +79805585949</a>
+                    </div>
+                    <div class="foo-line-email">
+                        <a href="mailto:hr@dv-s.com" target="_blank">hr@dv-s.com</a>
+                    </div>
+                </div>
+                <div class="copy">Developers 2018-2021 &copy; All rights reserved</div>
+            </div>
+        </footer>
+        <!--End Footer-->
+    </div>
+
+
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.6.0,npm/slick-carousel@1.8.1"></script>
+    <script src="src/js/main.js"></script>
+</body>
+</html>
